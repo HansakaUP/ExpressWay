@@ -1,0 +1,223 @@
+@font-face {
+  font-family: 'MicrosoftSansSerif';
+  src: url('../inc/micross.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+
+
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333;
+}
+
+li {
+  float: left;
+}
+
+li:last-child {
+  border-right: none;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+li a:hover:not(.active) {
+  background-color: #111;
+  font-weight: bold;
+}
+
+.active {
+  background-color: #4CAF50;
+
+}
+
+
+/*Search Bar*/
+* {
+  box-sizing: border-box;
+}
+
+form.example input[type=text] {
+  padding: 10px;
+  font-size: 17px;
+  border: 2px solid black;
+  float: left;
+  width: 50%;
+  background: #f1f1f1;
+}
+
+form.example button {
+  float: left;
+  width: 15%;
+  margin: 0px 3px;
+  padding: 10px;
+  background: #0000e6;
+  color: white;
+  font-size: 17px;
+  border: 2px solid #0000e6;
+  border-left: none;
+  cursor: pointer;
+}
+
+form.exampxsle button:hover {
+  background: #0b7dda;
+}
+
+form.example::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+
+
+/*Bar 2*/
+.abc {
+  list-style-type: none;
+  margin:8px;
+  padding: 1px;
+  overflow: hidden;
+  background-color: #ffffff;
+}
+
+.abc li {
+  float: left;
+}
+
+.abc li:last-child {
+  border-right: none;
+}
+
+.abc li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+.abc li a:hover:not(.active) {
+  background-color: #ffffff;
+  color: gray;
+}
+
+.abc .active {
+  background-color: #ffffff;
+    color:  gray;
+}
+
+
+/*nav2*/
+.nav2 {
+  list-style-type: none;
+  margin:8px;
+  padding: 1px;
+  overflow: hidden;
+  background-color: #ffffff;
+}
+
+.nav2 li {
+  float: left;
+}
+
+.nav2 li:last-child {
+  border-right: none;
+}
+
+.nav2 li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+.nav2 li a:hover:not(.active) {
+  background-color: #ffffff;
+  color: black;
+
+}
+
+.nav2 .active {
+  background-color: #ffffff;
+    color:  black;
+
+}
+
+
+
+img {
+  width: 100%;
+}
+
+.round1{
+  border-radius: 50%;
+  margin: 0px -8px;
+}
+
+
+.list{
+  display: flex;
+  margin: 10px 50px;
+  padding: 0px;
+}
+
+
+
+/*Product List*/
+
+
+.card {
+  box-shadow: 0 6px 10px 0 rgba(0, 0, 0, 0.2);
+  max-width: 300px;
+  margin: 0px 55px;
+  text-align: center;
+  font-size: 17px; 
+}
+
+.card h1{
+  font-size: 21px; 
+}
+
+
+.price {
+  color: red;
+  font-size: 19px;
+}
+
+.card button {
+  border: 0px;
+  outline: 0;
+  padding: 12px 5px;
+  color: white;
+  background-color: #0000b3;
+  text-align: center;
+  cursor: pointer;
+  width: 50%;
+  font-size: 16px;
+}
+
+.button2{
+  background-color: red;
+}
+
+.description{
+  color: #a3a375;
+}
+
+.card button:hover {
+  opacity: 0.7;
+}
+
+
